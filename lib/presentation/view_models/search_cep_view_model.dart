@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../domain/repositories/cep_repository.dart';
-import '../../domain/value_objects/Cep.dart';
+import '../../domain/value_objects/cep.dart';
 
 class SearchCepViewModel extends ChangeNotifier {
   final CepRepository repository;
