@@ -1,9 +1,7 @@
-// data/services/api_client.dart
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-/// Exceção padrão de chamadas HTTP
 class ApiException implements Exception {
   final int? statusCode;
   final String message;

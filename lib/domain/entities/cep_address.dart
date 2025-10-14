@@ -1,4 +1,3 @@
-// domain/entities/cep_address.dart
 class CepAddress {
   final String cep, logradouro, bairro, localidade, uf;
   final String? complemento, ddd, ibge;
