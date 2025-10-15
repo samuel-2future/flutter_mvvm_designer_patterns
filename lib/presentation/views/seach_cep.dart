@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../../app/di/injector.dart';
 import '../../domain/repositories/cep_repository.dart';
-import '../view_models/search_cep_view_model.dart';
+import '../view_model/search_cep_view_model.dart';
 
 class SearchCep extends StatefulWidget {
   const SearchCep({super.key});
